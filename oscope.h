@@ -9,7 +9,3 @@ uint8_t read();
 
 /* sends reading to serial by usart */
 void sendToSerial(uint8_t reading);
-
-int main(void) {
-
-}
