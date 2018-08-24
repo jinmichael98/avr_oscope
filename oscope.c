@@ -8,8 +8,8 @@
 #define SET_BIT(byte, bit) (byte |= (1 << (bit)))
 #define CLEAR_BIT(byte, bit) (byte &= ~(1 << (bit)))
 
-#define DELAY_TIME 10
- 
+#define DELAY_TIME_MS 10
+
 /* start Usart module */
 void initUsart() {
     SET_BIT(UCSR0B, TXEN0); // transmitter enable
